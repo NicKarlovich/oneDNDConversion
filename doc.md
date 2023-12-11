@@ -1,5 +1,4 @@
 Document listing all changes in a short form for upgrading from 5e to oneDND
-
 ## Classess
 ### Barbarian
 #### Rage
@@ -98,6 +97,49 @@ Document listing all changes in a short form for upgrading from 5e to oneDND
 
 
 ## Spells
+
+### Acid Splash
+* now creates 5 foot radius sphere that affects any creature caught inside, and is an evocation instead of conjuration spell
+
+### Blade Ward
+* Is now a reaction that imposes disadvantage on a creatures next melee attack roll
+* used to be an action to gain resistance to all b/p/s
+
+### Chill Touch
+* Becomes a touch spell, instead of 30ft hand, and does 1d10 not 1d8, remvoed restriction against undead.
+
+### Friends
+* Now includes a WIS saving throw against becoming Charmed
+* also removed "the creature will know you charmed it afterwards"
+
+### Poison Spray
+* Range of 30 feet not 10 feet
+* uses attack roll rather than CON saving throw
+* necromancy, not conjuration school
+
+### Produce Flame
+* Bonus Action to summon, action to attack
+* range of light increased
+* Range of attack increased to 60 feet (from 30)
+* Can now target objects and structures
+
+### Shillelagh
+* Now can deal force damage or weapon damage
+* At higher levels, weapons damage die goes from d8 to d10 to d12 to 2d6
+
+### Shocking Grasp
+* Shuts down opportunity attacks rather than all reactions
+* Doesn't have distinction about target wearing metal ;(
+
+### Spare the Dying
+* No longer touch, is a ranged spell 15 feet
+* At higher levels, the range doubles to 30/60/120 at 5/11/17 respectively
+
+### True Strike
+* Complete Rewrite
+* You make a melee weapon attack using weapon you have proficiency with, using your spellcasting mod instead of STR or DEX
+* Can choose to deal radiant instead of weapon damage type
+* Scales with extra d6 at 5th/11th/17th level
 
 ### Conjure Animals
 * Completely Redesigned
@@ -264,7 +306,8 @@ the end of your next turn.
 ## Rules Glossary
 TODO add rules that have changed...
 
-
+## Bastions
+Just look up the bastions document or wait for them to comeout, they're new stronghold rules and nothing we've seen before, doesn't make sense to repeat them here.
 
 
 
