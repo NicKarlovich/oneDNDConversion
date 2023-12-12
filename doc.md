@@ -36,13 +36,146 @@ Document listing all changes in a short form for upgrading from 5e to oneDND
 #### Primal Knowledge
 * Tasha's Cauldron ability moved to level 2
 
+### Bard
+
+#### Bardic Inspiration
+* Is now a reaction when somebody fails a d20 roll rather than a BA on your turn
+* Duration has increased to 1 hour from 10 minutes
+
+#### Countercharm
+* Changed from action, to reaction when a creature within 30 feet fails a saving throw against a charm or frighten effect
+* When reaction triggers, causes target who failed to remake saving throw w/ advantage.
+
+#### Font of Inspiration
+* Allows you to expend a spell slots 1/turn (no action) to get 1 use of bardic inspiration
+
+#### Magical Secrets
+* Relies on arcane/primal/divine spell lists so this ability since Playtest 6 does not work...
+TODO fill this in.
+
+#### Spellcasting
+* Playtest 6 it was related to spell lists
+* Since playtest 7 they have dropped arcane/primal/divine spell lists so this feature doesn't work
+* TODO fill this in once we know
+* At the moment, assume, only Bard Spell list
+
+#### Superior Inspiration
+* was now a 20th level feature, now is 18th level
+* When you roll initiative with no uses of inspiration, you regain 2
+
+#### Words of Creation
+* New 20th level feature replacing Superior Inspiration
+* You therefore always have the Power Word Heal and Power Word Kill spells prepared, and when you cast either spell, you can target a second creature with the spell, provided that creature is within 10 feet of the first target.
+    * Note Power Word Heal and Power Word Kill had spell changes in this UA which make this more viable/useful
+
+### Cleric
+
+#### Blessed Strikes
+* new 7th level feature
+* Replaces in subclass the Divine Strike and Potent Cantrips features typically shown in subclasses
+* Grants cleric the ablity to choose between them, rather than being restricted based on subclass
+    * Divine Strike. Once on each of your turns when you hit a creature with an attack with a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant (your choice) damage.
+    * Potent Spellcasting. You add your Wisdom modifier to the damage you deal with any Divine cantrip.
+
+
+#### Channel Divinity
+* Get 2 uses at level 2, 3 at level 6 and 4 at level 18
+* But you only regain 1 use on short rest rather than all users
+* You also can regain all on long rest
+* Now grants 2 options to users along with subclass options
+    * Divine Spark: As a Magic action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at them. Roll 1d8 and add your Wisdom modifier. You either restore Hit Points to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes Necrotic or Radiant (your choice) damage equal to that total. On a successful save, the creature takes half as much damage (round down).
+    * Turn Undead:
+        * Essentially the same as before except instead of undead creatures becoming turned on fail, they instead become incapacitated and frightened until they take damage or caster becomes incapacitated, or dies.
+
+#### Commune
+* New 9th level feature
+* You always have the commune spell prepared
+
+#### Divine Intervention
+* No longer roll a d100, trying to roll below your cleric level, newly rewritten
+* As a Magic action, choose any Divine spell of 5th level or lower that doesn’t require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing material components. You then can’t use this feature again until you finish a Long Rest.
+
+#### Divine Order
+* New 1st level feature
+* Allows you to choose your "style" of cleric
+    * Protector: You gain martial weapon proficiency and heavy armour
+    * Thaumaturge: You gain 1 more cleric cantrip and gain a bonus to religion checks equal to your wisdom modifier
+
+#### Greater Divine Intervention
+* Replaces d100 roll
+* Instead allows cleric to cast Wish, after casting, you must wait 2d4 long rests before using it again.
+* When you cast wish in this way, you are immune to the stress caused by using Wish to do something other than casting a spell.
+
+#### Improved Blessed Strikes
+* New level 14 feature
+* Improves the blessed strikes feature you chose at level 7 
+    * Divine Strike. The extra damage of your Divine Strike increases to 2d8.
+    * Potent Spellcasting. When you cast a Divine cantrip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit Poin
+
+
+#### Smite Undead
+* Replaces 5th level destroy undead
+* Removed completely destroying creatures based on CR design
+* When you use Turn Undead, deal radiant damage equal to your wisdom modifier number of d8s to all creatures who fail, this damage doesn't end the turned condition
+
+#### Spellcasting
+* Your spell preparation is now determined by the Spells prepared column in the Cleric Leveling Table
+    * It is about how many spells you'd probably have typically as a cleric by prioritizing wisdom at lower levels, but beyond level 11, it is anywhere from 1 to 3 less levels than you'd probably have prepared for a 5e cleric
+    * Essentially your prepared spells at lower levels won't change much, but at higher levels it'll be slightly more restricted
+    * Its actually the same progression that oneDND bard gets
+
+
+
 
 ### Druid
+
+#### Archdruid
+* Reworked 20th level feature
+    * Evergreen Wild Shape: Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use of it.
+    * Nature Magician. You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. You must then finish a Long Rest before you can do so again. For example, if you convert two uses of Wild Shape, you produce a 4th-level spell slot.
+    * Longevity. The primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.
+
+#### Commune with Nature
+* New 9th level feature
+* You always have Commune With Nature prepared
+
+#### Druidic
+* You always have speak with animals prepared
+
+#### Elemental Fury
+* New 7th level feature
+* Specialization for druids, pick one of the options:
+    * Potent Spellcasting. You add your Wisdom modifier to the damage you deal with any Primal cantrip.
+    * Primal Strike. Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form’s attack in Wild Shape,you can cause the target to take an extra 1d8 Cold, Fire, Lightning, or Thunder damage (choose when you hit).
+
+#### Improved Elemental Fury
+* new 15th levle features
+* The option you chose from the Elemental Fury feature gets an upgrade: 
+    * Potent Spellcasting. When you cast a Primal cantrip with a range of 10 feet or greater, the spell’s range increases by 300 feet.
+    * Primal Strike. The extra damage of your Primal Strike increases to 2d8.
+
+#### Primal Order
+* New 1st level feature
+* Helps designate if you are caster, or martial druid by choosing one of two options
+    * Magician. You know one extra cantrip from the Druid spell list. In addition, you gain a bonus to nature checks equal to your wisdom modifier.
+    * Warden: Uou gain Martial Weapon proficiency and armor training with Medium Armor.
+
+#### Spellcasting
+* Your number of prepared spells are no longer related to your level or wisdom modifier it is instead tied to a column in the druid leveling table.  
+* Same number of preparations as clerics, slightly less than you would have before, moreso at higher levels
+
 #### Wildshape
+* Wildshape is a BA for all druids
 * has a number of known beast forms (2 + half druid level rounded up)
 * Beast form no longer retains druid's species traits
 * wildshape gives temp hp instead of new Hp pool, temp hp total = your druid level
 * regain one use when you finish a short rest
+* You can turn into a creature with swim speed at 2nd level, rather than waiting till 4th
+
+#### Wild Resurgence
+* New 5th level feature
+* 1/turn, If you have no uses of Wild Shape left, you can give yourself one use by expending a spell slot (no action required).
+* 1/long rest: You can expend one use of Wild Shape (no action required) to give yourself a 1st- level spell slot
 
 ### Fighter
 
@@ -71,6 +204,10 @@ Document listing all changes in a short form for upgrading from 5e to oneDND
 * Lets you move half your movement speed w/out provoking opportunity attacks when you use your second wind.
 
 ### Monk
+
+#### Acrobatic Movement
+* Renamed 9th level unarmoured movement feature
+
 #### Martial Arts
 * Scales from d6 to d12 instead of d4 to d10
 
@@ -104,10 +241,12 @@ Document listing all changes in a short form for upgrading from 5e to oneDND
 * Used to be Deflect missles
 * now works agaisnt all B/P/S attacks, not just ranged attacks.
 * attack is reduce dby 1d10 + Dex mod + monk level (used to not include dex mod in damage reduction calculation)
+* When a weapon is thrown back it now deals 2 rolls of martial arts die + Dex mod, rather than just 1 roll of martial arts die.
 
 #### Stunning Strike
 * is now a 1/turn feature
 * When a target succeeds on the saving throw, they take force damage equal to a roll of martials arts die + wis modifier
+* only lasts until the start of your next turn, instead of end of next turn
 
 #### Empowered Strikes
 * replaces ki-empowered strikes
