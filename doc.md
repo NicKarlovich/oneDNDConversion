@@ -13,10 +13,29 @@ Document listing all changes in a short form for upgrading from 5e to oneDND
     * [13th level] next attack roll made against the creature gains bonus to their attack roll equal to your rage damage
     * [17th level] damage becomes 2d10 from 1d10
     * [17th level] you can use 2 options when you brutal strike, not just 1
+
+#### Danger Sense
+* Now works while blinded or deafened
+
+#### Indomitable Might
+* 18th level feature
+* Now applies to strength saving throws and strength checks.
+* It used to only apply to strength checks, setting minimum rolled value to strenth score, but now it also applies to saving throws.
+
+#### Instinctive Pounce
+* Integrated from Tasha's
+
+#### Reckless Attack
+* Now grants advantage on attacks until the start of your next turn (to work on held actions and opportunity attacks), used to only work until end of turn
+
 #### Persistent Rage
 * 15th level feature
 * Now restores all uses of your rage onece per long rest,
 * The unconcious condition not the incapacitated condition shuts off rage
+
+#### Primal Knowledge
+* Tasha's Cauldron ability moved to level 2
+
 
 ### Druid
 #### Wildshape
@@ -24,6 +43,32 @@ Document listing all changes in a short form for upgrading from 5e to oneDND
 * Beast form no longer retains druid's species traits
 * wildshape gives temp hp instead of new Hp pool, temp hp total = your druid level
 * regain one use when you finish a short rest
+
+### Fighter
+
+#### Action Surge
+* Can now only be used for any action, except the Magic Action
+    * Magic action essentially means cast a spell, see glossary below
+
+#### Master of Armaments
+* New 9th level feature
+* allows you to switch the weapon mastery of a weapon to another weapon mastery that is valid on said weapon.  This effect only works for you, and lasts until the next long rest
+    * See rules below for what is a Weapon Mastery
+
+#### Second Wind
+* Now regains one use on short rest
+
+#### Studied Mind
+* New 13th level ability
+* If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creature before the end of your next turn.
+
+#### Tactical Mind
+* New 2nd level feature
+* Expend second wind while making an ability check, roll a d10 to add to ability check instead of regaining health.  If the check still fails, you don't lose your use of second wind.
+
+#### Tactical Shift
+* New 5th level feature
+* Lets you move half your movement speed w/out provoking opportunity attacks when you use your second wind.
 
 ### Monk
 #### Martial Arts
@@ -95,11 +140,151 @@ Document listing all changes in a short form for upgrading from 5e to oneDND
 * new 20th level feature
 * gain +4 to dex and wisdom scores, increasing max for those scores to 26
 
+### Sorcerer
+
+#### Arcane Apotheosis
+* New 20th level feature
+* While your Innate sorcery feature is active, you can use 1 metamagic feature per turn without expending a sorcery point on it.
+* 
+
+#### Font of Magic
+* It no longer costs a BA to convert spell slots to sorcery points
+    * although it does still cost a BA to convert sorcery points into spell slots
+
+#### Innate Sorcery
+* New level 1 feature
+* BA to gain +1 to spell save DCs and advantage on sorcerer spell attacks
+* 2x/long rest
+
+#### Sorcerous Restoration
+* 20th level feature moved to 5th level and modified
+* Used to be regain 4 sorcery points whenever you finish a long rest
+* Is now, when you finish a short rest or roll initiative and have no sorcery points remaining, you can regain a number of sorcery points equal to your sorcerer level divided by five (round down)
+
+#### Sorcery Incarnate
+* New 7th level feature
+* While your Innate Sorcery feature is active, you can use up to two of your Metamagic options on each spell you cast. 
+* In addition, if you have no uses of Innate Sorcery left, you can use it if you spend 2 Sorcery Points when you take the Bonus Action to activate it.
+
+#### Spellcasting
+* New sorcerer specific spells Sorcerous Burst and Arcane Eruption
+
+### Warlock
+
+#### Contact Patron
+* New 9th level feature
+* 1/long rest, you can cast Contact Other Plane to talk to your patron w/out expending a spell slot and you auto-succeed on the saving throw involved.
+
+#### Eldrtich Invocations
+* Moved to level 1 from level 2
+* You get 1 invocation at level 1
+* From levels 2-4 you have 3 rather than 2 invocations
+* for levels greater than 5, you have 5e # of invocations + 2
+* so at 20th level you would have 10 instead of 8 invocations
+* Pact choices (Blade/Tome/Chain,etc) are now invocations you can choose
+* See eldrtich invocations section for list of changes (there are many)
+
+#### Magical Cunning
+* New 2nd level feature
+* 1/long rest: when you have no spell slots you can regain half of your total max spell slots over the course of a minute by doing a ritual.
+
+#### Mystic Arcanum
+* Allows you to change the one of the spells you choose for mysic arcanum on level up.
+
+#### Pact Boon
+* This feature is now granted as a invocation
+* This allows warlocks to choose to not take a boon, or in the future take multiple boons as invocations
+
+## Eldritch Invocations
+### Agonizing Blast 
+* Now lets you choose which Warlock cantrip benefits from the invocation.
+### Ascendent Step
+* now requires level 5+ rather than level 9+.
+### Beast Speech 
+* Removed, since Speak with Animalsis now on the Warlock spell list and can be cast as a Ritual.
+### Devil’s Sight
+* Now works in Dim Light as well as in Darkness
+### Eldritch Mind 
+* has been imported from Tasha’s Cauldron of Everything.
+### Eldritch Sight
+* Removed, since Detect Magic is now on the Warlock spell list and can be cast as a ritual.
+### Eldritch Smite 
+* has been imported from Xanathar’s Guide to Everything.
+### Eldritch Spear 
+* now lets you choose which Warlock cantrip benefits from the invocation.
+### Eyes of the Rune Keeper
+* Removed, since Comprehend Languages is on the Warlock spell list and can be cast as a ritual.
+
+### Favor of the Chain Master
+* Removed in favor of importing Investment of the Chain Master from Tasha’s Cauldron of Everything.
+### Fiendish Vigor
+* no longer requires you to roll a die when casting False Life; you instead gain the maximum number of Temporary Hit Points.
+### Gaze of Two Minds  
+* now works on any willing creature, not just Humanoids, and to cast spells from the other creature’s space, you must be within 60 feet of each other.
+### Gift of the Depths 
+* has been imported from Xanathar’s Guide to Everything.
+### Eldritch Mind
+* Hexer has been replaced by Eldrtich Mind from Tasha’s Cauldron of Everything
+### Investment of the Chain Master
+* has been imported from Tasha’s Cauldron of Everything.
+### Lessons of the First Ones
+* can now be taken more than once.
+### Lifedrinker 
+* now lets you choose to deal Necrotic, Psychic, or Radiant damage, and its healing is connected to your Hit Dice.
+### Master of Myriad Forms
+* now requires level 5+ rather than level 15+.
+### One with Shadows
+* now lets you cast Invisibility without a spell slot while you’re in Dim Light or Darkness.
+### Otherworldly Leap 
+* now requires level 2+ rather than level 9+.
+### Pact of the Blade
+* Used to be a feature, now is an invocation
+### Pact of the Chain
+* Used to be a feature, now is an invocation
+* Includes additional familiar options
+### Pact of the Tome 
+* Used to be a feature, now is an invocation
+* Pact of the Tome now gives you a level 1 spell slot.
+### Thirsting Blade 
+* now improves at level 11.
+### Visions of Distant Realms
+* now requires level 9+ rather than level 15+.
+### Whispers of the Grave
+* now requires level 7+ rather than level 9
+
+### Wizard
+
+#### Memorize Spell
+* New 5th level ability
+* Choose one spell of level 1 or higher from your spellbook that you don’t have prepared. You now have that spell prepared until you use this feature to prepare a different spell.
+
+#### Scholar
+* New 2nd level feature
+* You can gain expertise in one of the following skills if you already have proficiency in it
+    * Arcana
+    * History
+    * Nature
+    * Religion
+
+#### Spellcasting
+* You can now change 1 known cantrip per long rest
+* The number of spells you can prepare is now listed in the wizard leveling table, rather than being based off of your Intelligence Mod + Wizard Level, 
+    * The scaling overall is generally the same, although sometimes slightly slower than you could theoertically have by rushing INT to 20.
+
+#### Spell Mastery
+* 18th level feature allowing you to innately cast a few 1st or 2nd level spells
+* Now is limited to spells that take an action 
+    * No more shield or absorb elements
+* You can swap what spell you master on long rest.
 
 ## Spells
 
 ### Acid Splash
 * now creates 5 foot radius sphere that affects any creature caught inside, and is an evocation instead of conjuration spell
+
+### Arcane Eruption
+* New 4th level sorcery only spell
+TODO - add image of spell here from Playtest 7
 
 ### Blade Ward
 * Is now a reaction that imposes disadvantage on a creatures next melee attack roll
@@ -108,9 +293,21 @@ Document listing all changes in a short form for upgrading from 5e to oneDND
 ### Chill Touch
 * Becomes a touch spell, instead of 30ft hand, and does 1d10 not 1d8, remvoed restriction against undead.
 
+### Counterspell
+* Now requires target to make a con save, rather than caster making spellcaster ability check
+* You attempt to interrupt a creature in the process of casting a spell. The creature must make a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn’t expended.
+* Developer reasoning:
+    > the spell’s previous design failed to account for the capabilities of the target, which is rectified by the new design. The new design also specifies that the countered spell must be cast with spell components, and if the countered spell used a spell slot, that slot isn’t expended.
+
 ### Friends
 * Now includes a WIS saving throw against becoming Charmed
 * also removed "the creature will know you charmed it afterwards"
+
+### Jump
+* Is now a BA to cast instead of Action
+* Target must now be willing
+* Effects of spell are not reliant on target's speed/strength
+* Can target more creatures with upcasting
 
 ### Poison Spray
 * Range of 30 feet not 10 feet
@@ -130,6 +327,10 @@ Document listing all changes in a short form for upgrading from 5e to oneDND
 ### Shocking Grasp
 * Shuts down opportunity attacks rather than all reactions
 * Doesn't have distinction about target wearing metal ;(
+
+### Sorcerous Burst
+* New sorcerer Cantrip
+![Alt text](image-7.png)
 
 ### Spare the Dying
 * No longer touch, is a ranged spell 15 feet
@@ -201,42 +402,7 @@ TODO Combine these images
 TODO: ADD TABLE HERE OR CLEANED UP IMAGE
 
 #### Heavy Weapon Property
-A Heavy weapon is unwieldy compared to other
-weapons. You have Disadvantage on your attack
-rolls with a Heavy weapon if it’s a Melee weapon
-and your Strength score isn’t at least 13, and if
-it’s a Ranged weapon and your Dexterity score
-isn’t at least 13.
-
-#### Light Weapon Property
-When you take the Attack action on your turn
-and attack with a Light weapon, you can make
-one extra attack as a Bonus Action later on the
-same turn. That extra attack must be made with
-a different Light weapon, and you don’t add your
-ability modifier to the extra attack’s damage,
-unless that modifier is negative.
-For example, if you take the Attack action on
-your turn and have a Shortsword in one hand
-and a Dagger in the other—each of which has the
-Light property—you can make one attack with
-each weapon using your action and a Bonus
-Action, but you don’t add your Strength or
-Dexterity modifier to the damage roll of the
-Bonus Action unless that modifier is negative.
-
-#### Thrown Weapon Property
-If a weapon has the Thrown property, you can
-throw the weapon to make a ranged attack, and
-you can draw that weapon as part of the attack.
-If the weapon is a Melee weapon, use the same
-ability modifier for that attack roll and damage
-roll that you would use for a melee attack with
-the weapon. For example, if you throw a
-Handaxe, you use your Strength, but if you throw
-a Dagger, you can use either your Strength or
-your Dexterity since the Dagger has the Finesse
-property.
+* Updated so that it no longer relies on creature size, now it is dependent on the creature's strength to be used.
 
 #### Cleave Mastery Property
 *Prereq: Heavy melee weapon*
