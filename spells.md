@@ -63,7 +63,7 @@
 ### Elementalism
 * New cantrip
 
-  ![Alt text](image-8.png)
+  ![Alt text](image-14.png)
 
 ### Find Familiar
 * Too much to write here, but essentially your familiar is always of the statblock provided in the spell with some minor tweaks depending on if you choose Celestial, Fey or Fiend.
@@ -151,7 +151,8 @@
 
 ### Sorcerous Burst
 * New sorcerer Cantrip
-![Alt text](image-7.png)
+
+  ![Alt text](image-13.png)
 
 ### Spare the Dying
 * No longer touch, is a ranged spell 15 feet
@@ -200,12 +201,12 @@
 ### Conjure Celestial
 * Completely redesigned
 
-  ![Alt text](image-3.png)
+  ![Alt text](image-15.png)
 
 ### Conjure Elemental
 * Completely Redesigned
 
-  ![Alt text](image-4.png)
+  ![Alt text](image-16.png)
 
 ### Conjure Fey
 * Completely Redesigned
@@ -216,12 +217,12 @@
 ### Conjure Minor Elementals
 * Completely Redesigned
 
-  ![Alt text](image-5.png)
+  ![Alt text](image-17.png)
 
 ### Conjure Woodland Beings
 * Completely Redesigned
 
- ![Alt text](image-6.png)
+  ![Alt text](image-18.png)
 
 ### Cure Wounds
 * healing is now 2d8 at level 1, and 2d8 per level upcast, used to be 1d8 and 1d8 per level upcast
@@ -229,7 +230,7 @@
 ### Fount of Moonlight
 * New 4th level spell for bards and druids
 
-  ![Alt text](image.png)
+  ![Alt text](image-19.png)
 
 ### Healing Word
 * 2d4 at level 1, and 2d4 per level upcast, used to be 1d4 and 1d4 per level upcast
@@ -243,10 +244,10 @@
 ### Power Word Fortify
 * new spell for bards and clerics
 
-  ![Alt text](image-1.png)
+
+  ![Alt text](image-20.png)
 
 ### Starry Wisp
 * New cantrip for bards and druids
-* scales 2d8 at level 5, 3d8 at 11th, and 4d8 and 17th
 
-  ![Alt text](image-2.png)
+  ![Alt text](image-21.png)
