@@ -8,7 +8,8 @@
 
 ### Arcane Eruption
 * New 4th level sorcery only spell
-TODO - add image of spell here from Playtest 7
+
+  ![Alt text](image-9.png)
 
 ### Banishing Smite
 * Is now a paladin exclusive spell
@@ -193,34 +194,42 @@ TODO - add image of spell here from Playtest 7
 
 ### Conjure Animals
 * Completely Redesigned
-TODO: Combine these images together from
-https://media.dndbeyond.com/compendium-images/ua/ph-playtest8/gHvtmY50loGLgQUb/UA2023-PH-Playtest-8.pdf?icid_source=house-ads&icid_medium=crosspromo&icid_campaign=playtest9
+
+  ![Alt text](image-11.png)
 
 ### Conjure Celestial
 * Completely redesigned
-![Alt text](image-3.png)
+
+  ![Alt text](image-3.png)
 
 ### Conjure Elemental
 * Completely Redesigned
-![Alt text](image-4.png)
+
+  ![Alt text](image-4.png)
 
 ### Conjure Fey
-TODO Combine these images
+* Completely Redesigned
+
+  ![Alt text](image-12.png)
+
 
 ### Conjure Minor Elementals
 * Completely Redesigned
-![Alt text](image-5.png)
+
+  ![Alt text](image-5.png)
 
 ### Conjure Woodland Beings
 * Completely Redesigned
-![Alt text](image-6.png)
+
+ ![Alt text](image-6.png)
 
 ### Cure Wounds
 * healing is now 2d8 at level 1, and 2d8 per level upcast, used to be 1d8 and 1d8 per level upcast
 
 ### Fount of Moonlight
 * New 4th level spell for bards and druids
-![Alt text](image.png)
+
+  ![Alt text](image.png)
 
 ### Healing Word
 * 2d4 at level 1, and 2d4 per level upcast, used to be 1d4 and 1d4 per level upcast
@@ -233,9 +242,11 @@ TODO Combine these images
 
 ### Power Word Fortify
 * new spell for bards and clerics
-![Alt text](image-1.png)
+
+  ![Alt text](image-1.png)
 
 ### Starry Wisp
 * New cantrip for bards and druids
 * scales 2d8 at level 5, 3d8 at 11th, and 4d8 and 17th
-![Alt text](image-2.png)
+
+  ![Alt text](image-2.png)
