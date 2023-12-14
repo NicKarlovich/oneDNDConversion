@@ -1,4 +1,9 @@
 Document listing all changes in a short form for upgrading from 5e to oneDND
+
+You'll probably need to still look at the playtest documents for the exact wording but this is meant to be a quick and up to date reference of what's changed so far
+
+There's probably mistakes if you find them, easily make suggestions here and I'll approve them.
+
 ## Classess
 ### Barbarian
 #### Rage
@@ -279,6 +284,139 @@ TODO fill this in.
 * new 20th level feature
 * gain +4 to dex and wisdom scores, increasing max for those scores to 26
 
+### Paladin
+
+#### Abjure Foes
+* New 9th level ability
+* each creature within 60 feet (up to your CHA Mod # of creatures) makes a WIS save and are dazed and frightened on failure for 1 minute
+
+#### Aura of Protection
+* The aura is inactive if you become incapacitated
+    * Used to only be inactive if you were unconcious
+
+#### Divine Smite
+* This feature has become a bonus action spell (for paladin's only), rather than class feature, listed later in document
+
+#### Lay on Hands
+* Is now a bonus action
+
+#### Paladin's Smite
+* 2nd level feature
+* Formerly called Divine Smite
+* Grants paladin exclusive smites that are always prepared (and don't count against number of prepared spells)
+
+#### Radiant Strikes
+* Replaces Improved Divine Smites
+* Level 11 feature
+* Now also applies 1d8 on unarmed strikes (along with other melee weapons)
+
+#### Restoring Touch
+* Replaces 14th level Cleansing Touch feature
+* Acts as improvement on lay on hands.
+* old feature ended 1 spell on a creature Cha mod / long rest as an action
+* New feature, allows you remove Blinded, Charmed, Dazed, Deafened, Frightened, Paralyzed or Stunned, each costing 5 lay on hands points when you use lay on hands.
+    * Can remove multiple statuses in same lay on hands.
+
+#### Spellcasting
+* The number of spells you can prepare is determined by a column in the paladin leveling table rather than being based on your level + charisma modifier, 
+    * generally you will have the same number of spells prepared as before
+* Paladin's can change one prepared spell on long rest
+
+#### Weapon Mastery
+* 1st elevel feature
+* Gains Weapon Masteries
+
+### Ranger
+
+#### Conjure Barrage
+* New 9th level feature
+* You always have the spell Conjure Barrage prepared
+* This spell has also changed to work for melee and ranged builds
+
+#### Conjure Volley
+* New 17th level feature
+* You always have the spell Conjure Volley Prepared
+* This spell has also changed to work for melee and ranged builds
+
+#### Deft Explorer
+* New 1st level ability
+* Somewhat related to version released in Tasha's replaces Natural Explorer
+* Grants expertise at level 1 in one skill from ranger proficiency list
+* In addition you can choose 2 terrains to have advantage on relevant nature and survival checks for those terrains, which can be switched on long rest.
+
+#### Favored Enemy
+* moved from 1st to 2nd level
+* Complete redesign of old feature
+* You always have Hunter's Mark Prepared and can cast it WIS mod number of times per long rest, (you can also use your regular spell slots)
+
+#### Feral Senses
+* 18th level ability
+* Rewritten to just give blindsight range of 30 feet, instead of being able to detect invisible creatures within 30 feet, and ignore their invisible conditions
+
+#### Foe Slayer
+* 20th level ability
+* Improved from old version
+* When you miss a target w/ Hunters mark on them, you can add your WIS mod to the attack roll
+* When you hit a target of Hunter's Mark and deal damage, you can add your WIS mod to the damage
+* No limit on number of uses in general or per turn.
+
+#### Nature's Veil 
+* Replaces Hide in plain sight feature
+* Moved to level 14 from level 10 (as suggested in tasha's)
+* Makes you invisible as a BA until the end of your next turn, WIS mod # of times / long rest
+* The old version was proficinecy bonus # of times / long rest, and it lasted till start of next turn
+
+#### Spellcasting
+* Number of prepared spells no longer depends on level + wisdom mod, instead its listed in ranger leveling table
+    * the number of spells you can prepare is about equal to what you would've had using the previous method
+* The ranger can also change 1 prepared spell on long rest
+
+#### Tireless
+* 10th level feature from Tasha's
+* Same as written except temp HP is WIS mod / long rest, instead of proficiency bonus
+* Two features:
+    * Temp HP: Action to give temp HP = 1d8 + WIS mod
+    * Decrease Exhaustion: At the end of short rest, decrease exhaustion by 1 if you choose to.
+
+#### Weapon Mastery
+* New 1st level feature
+* Grants some weapon masteries to rangers, see below
+
+### Rogue
+
+#### Cunning Strikes
+* Grants tactical options to sneak attack which can be activated by reducing the number of sneak attack dice you add to the attack roll
+* Options:
+    * Disarm, Cost: 1d6, DEX save or drop one item its holding
+    * Poison, Cost: 1d6, COn save or become poisoned for 1 minute, save end of turn
+    * Trip, Cost: 1d6, DEX save or they become prone
+    * Withdraw, Cost: 1d6, Immediately after attacking, move half speed w/out provoking opportunity attacks
+
+#### Devious Strikes
+* New 14th level feature related to cunning strikes
+* Gives the following new options:
+    * Daze, Cost: 2d6, CON save or become dazed until end of their next turn
+    * Knock Out, Cost: 6d6, CON save or become unconcious for 1 minute or until they take damage, save end of turn
+    * Obscure, Cost 3d6: DEX save or become blinded until end of their next turn.
+
+#### Improved Cunning Strikes
+* New Level 11 feature
+* Allows you to use two cunning strike features on the same attack
+
+#### Reliable Talent
+* 11th level feature moved to 7th level
+
+#### Sneak Attack
+* Simplified wording but still the same
+
+#### Steady Aim
+* 3rd level feature imported from Tasha's
+* BA to gain advantage on the next attack roll, if you don't move on your turn.
+
+#### Weapon Mastery
+* New 1st level feature
+* Grants rogues Weapon mastery, see below
+
 ### Sorcerer
 
 #### Arcane Apotheosis
@@ -425,12 +563,34 @@ TODO fill this in.
 * New 4th level sorcery only spell
 TODO - add image of spell here from Playtest 7
 
+### Banishing Smite
+* Is now a paladin exclusive spell
+* Now also works with unarmed strikes
+* Casting time is: Bonus Action, which you take immediately after hitting a creature, rather than casting the spell before making the strike
+    * This makes it so the spell will always land
+
 ### Blade Ward
 * Is now a reaction that imposes disadvantage on a creatures next melee attack roll
 * used to be an action to gain resistance to all b/p/s
 
+### Blinding Smite
+* Is now a paladin exclusive spell
+* Now also works with unarmed strikes
+* Casting time is: Bonus Action, which you take immediately after hitting a creature, rather than casting the spell before making the strike
+    * This makes it so the spell will always land
+* Applies blind on hit, then the creature can make CON saves, rather than having to fail a CON save initially.
+
 ### Chill Touch
 * Becomes a touch spell, instead of 30ft hand, and does 1d10 not 1d8, remvoed restriction against undead.
+
+### Conjure Barrage
+* Is now a ranger exclusive spell
+* does 5d8 instead of 3d8 and can scale by 1d8 at higher levels
+* Can be used by wielding a melee weapon rather than just ranged
+
+### Conjure Volley
+* Is now a ranger exclusive spell
+* Can be used by wielding a melee weapon rather than just ranged
 
 ### Counterspell
 * Now requires target to make a con save, rather than caster making spellcaster ability check
@@ -438,9 +598,30 @@ TODO - add image of spell here from Playtest 7
 * Developer reasoning:
     > the spell’s previous design failed to account for the capabilities of the target, which is rectified by the new design. The new design also specifies that the countered spell must be cast with spell components, and if the countered spell used a spell slot, that slot isn’t expended.
 
+### Divine Smite
+* New 1st level paladin exclusive spell
+* Meant as a replacement for paladin's divine smite feature
+
+### Elementalism
+* New cantrip
+
+  ![Alt text](image-8.png)
+
+### Find Steed
+* Is now a paladin exclusive spell
+
 ### Friends
 * Now includes a WIS saving throw against becoming Charmed
 * also removed "the creature will know you charmed it afterwards"
+
+### Hex
+* Is now warlock exclusive
+
+### Hunter's Mark
+* Is now a ranger exclusive spell
+* Deals 1d6 force instead of 1d6 weapon damage
+* damage is 1x/turn instead of on every attack
+* Higher casting has changed, at 3/4th level the spell does 2d6 on hit, at 5th level it does 3d6 on hit.
 
 ### Jump
 * Is now a BA to cast instead of Action
@@ -453,15 +634,37 @@ TODO - add image of spell here from Playtest 7
 * uses attack roll rather than CON saving throw
 * necromancy, not conjuration school
 
+### Power Word Heal
+* Now has a range of 60 feet instead of touch
+* Now also cures Dazed condition
+
+### Power Word Kill
+* If the target has over 100HP it takes 12d12 Psychic damage instead of doing nothing
+
 ### Produce Flame
 * Bonus Action to summon, action to attack
 * range of light increased
 * Range of attack increased to 60 feet (from 30)
 * Can now target objects and structures
 
+### Searing Smite
+* Now also works with unarmed strikes
+* Casting time is: Bonus Action, which you take immediately after hitting a creature, rather than casting the spell before making the strike
+    * This makes it so the spell will always land
+* No longer requries concentration
+* Deals ongong damage on hit, rather than only dealing damage if they fail the save, still makes save at end of turn though
+
 ### Shillelagh
 * Now can deal force damage or weapon damage
 * At higher levels, weapons damage die goes from d8 to d10 to d12 to 2d6
+
+### Shining Smite
+* Renamed Branding Smite to Shining Smite
+* Is now a paladin exclusive spell
+* Now also works with unarmed strikes
+* Casting time is: Bonus Action, which you take immediately after hitting a creature, rather than casting the spell before making the strike
+    * This makes it so the spell will always land
+* Now prevents target from benefiting from invisible condition
 
 ### Shocking Grasp
 * Shuts down opportunity attacks rather than all reactions
@@ -475,11 +678,35 @@ TODO - add image of spell here from Playtest 7
 * No longer touch, is a ranged spell 15 feet
 * At higher levels, the range doubles to 30/60/120 at 5/11/17 respectively
 
+### Staggering Smite
+* Is now a paladin exclusive spell
+* Now also works with unarmed strikes
+* Casting time is: Bonus Action, which you take immediately after hitting a creature, rather than casting the spell before making the strike
+    * This makes it so the spell will always land
+
+### Thunderous Smite
+* Is now a paladin exclusive spell
+* Now also works with unarmed strikes
+* Casting time is: Bonus Action, which you take immediately after hitting a creature, rather than casting the spell before making the strike
+    * This makes it so the spell will always land
+
 ### True Strike
 * Complete Rewrite
 * You make a melee weapon attack using weapon you have proficiency with, using your spellcasting mod instead of STR or DEX
 * Can choose to deal radiant instead of weapon damage type
 * Scales with extra d6 at 5th/11th/17th level
+
+### Vicious Mockery
+* Is now d6 damage die rather than d4
+* can now affect creatures that you can see or hear, rather than just see
+
+### Wrathful Smite
+* Now also works with unarmed strikes
+* Casting time is: Bonus Action, which you take immediately after hitting a creature, rather than casting the spell before making the strike
+    * This makes it so the spell will always land
+* Deals necrotic damage rather than psychic
+* No concentration
+* Necromancy spell not evocation anymore
 
 ### Conjure Animals
 * Completely Redesigned
@@ -536,9 +763,42 @@ TODO Combine these images
 * Is now a feat, you don't choose between ASI or Feat, you always get a feat at 4/8/12/16/19th level, but one option for a feat is an ASI
 * Same as before, BUT at 19th level you can increase your abilty score to a max of 22 not just 20
 
+### Weapons
+
+#### Lance
+* Gained Heavy and Two-Handed Properties, rather than special
+* Damage die reduced from 1d12 to 1d10
+
+#### Musket
+* Now appears in weapon table, although DM still has say over what weapons are available
+
+#### Net
+* Is now adventuring gear, not a weapon
+
+#### Pistol
+* Now appears in weapon table, although DM still has say over what weapons are available
+
+#### Trident
+* Damage die is now 1d8 and 1d10 versatile instead of 1d6 and 1d8 versatile
+
+#### War Pick
+* Now has versatile property
+
+### Weapon Property
+
+#### Light
+* Redefiend Light weapon property as the following:
+> When you take the Attack action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don’t add your ability modifier to the extra attack’s damage, unless that modifier is negative. For example, if you take the Attack action on your turn and have a Shortsword in one hand and a Dagger in the other—each of which has the Light property—you can make one attack with each weapon, using your action and a Bonus Action, but you don’t add your Strength or Dexterity modifier to the damage roll of the Bonus Action, unless that modifier is negative.
+
+#### Thrown
+* Allows you to draw a weapon as a part of the ranged attack
+* Redefined Thrown weapon property as the following:
+> If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a Handaxe, you use your Strength, but if you throw a Dagger, you can use either your Strength or your Dexterity, since the Dagger has the Finesse property.
+
 ### Weapon Masteries
 * All weapons now have mastery properties
-TODO: ADD TABLE HERE OR CLEANED UP IMAGE
+
+  ![Alt text](image-10.png)
 
 #### Heavy Weapon Property
 * Updated so that it no longer relies on creature size, now it is dependent on the creature's strength to be used.
