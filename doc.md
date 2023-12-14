@@ -331,6 +331,11 @@ TODO fill this in.
 #### Divine Smite
 * This feature has become a bonus action spell (for paladin's only), rather than class feature, listed later in document
 
+#### Faithful Steed
+* New 5th level ability
+* You always have the Find Steed spell prepared
+* You can cast it once per long rest without expending a spell slot
+
 #### Lay on Hands
 * Is now a bonus action
 
@@ -662,8 +667,18 @@ TODO - add image of spell here from Playtest 7
 
   ![Alt text](image-8.png)
 
+### Find Familiar
+* Too much to write here, but essentially your familiar is always of the statblock provided in the spell with some minor tweaks depending on if you choose Celestial, Fey or Fiend.
+    * It has a very weak melee spell attack, and the ability to reaction deliver spells you cast with a range of touch, while the familiar is within 120 feet.
+
 ### Find Steed
 * Is now a paladin exclusive spell
+* Now provides a statblock instead of choosing from exising beasts
+    * can regain hit points when you do
+    * Fey version can BA teleport
+    * Fiend version can frighten a target
+    * Celestial version can heal a creature
+    * Action attack does 1d8 + spell level w/ relevant damage type
 
 ### Friends
 * Now includes a WIS saving throw against becoming Charmed
@@ -837,11 +852,24 @@ TODO Combine these images
 * Additional Ability:
     * when you take damage that you have resistance to, reaction to redirect to another creature not behind total cover, DEX save or they take 2d12 + CON mod of the same damage
 
+### Epic Boon of Fate
+* reworked 20th level boon: used to be 1/short rest, apply d10 bonus or negative to any d20 roll within 60 feet.
+* Now allows you to increase one of INT/WIS/CHA by 1 up to max of 30
+* 1/turn: When another creature within 60 feet of you fails a d20 roll, you can roll 2d4 and add or subtract it from that roll.  
+* You have 8 maximum uses, and recharge 2d4 on long rest.
+
+
 ### Epic Boon of Irresistible Offense
 * Used to allow you to bypass any resistance of a creature
 * Increase STR or DEX by 1 up to 30
 * Always ignore b/p/s resistances 
 * 1/turn: When you roll a 20 on an attack roll, you can deal extra damage equal to ability mod increased by this feat 
+
+### Epic Boon of Night Spirit 
+* Used to be: While completely in an area of dim light or darkness, you can become invisible as an action. You remain invisible until you take an action or a reaction.
+* Now allows you to increase one of DEX/INT/WIS/CHA by 1 up to max of 30
+* While entirely in dim light or darkness, can give yourself invisible condition as magic action.  Condition ends when you take an action, BA, or Reaction
+* While entirely in dim light, or darkness, you have resistance to all damage except force, psychic, and radiant
 
 ### Epic Boon of Recovery
 * Used to be: 1/long rest, BA gain HP equal to half your maximum
@@ -858,11 +886,14 @@ TODO Combine these images
 * BA to disengage, which also ends grappled and restrained conditions on you
 * Increases base movement speed by 30
 
-### Epic Boon of Night Spirit 
-* Used to be: While completely in an area of dim light or darkness, you can become invisible as an action. You remain invisible until you take an action or a reaction.
-* Now allows you to increase one of DEX/INT/WIS/CHA by 1 up to max of 30
-* While entirely in dim light or darkness, can give yourself invisible condition as magic action.  Condition ends when you take an action, BA, or Reaction
-* While entirely in dim light, or darkness, you have resistance to all damage except force, psychic, and radiant
+### Epic Boon of Spell Recall
+* used to: 1/long rest, cast any spell you know or have prepared without expending a spell slot
+* Now allows you to increase one of INT/WIS/CHA by 1 up to max of 30
+* Whenever you use a 1st-4th level spell slot, roll a d4, if the roll equals the slots level, the slot isn't expended
+
+### Epic Boon of Truesight
+* Used to only grant truesight with range of 60 feet
+* Now also allows you to increase one of INT/WIS/CHA by 1 up to max of 30
 
 
 ## New Rules
@@ -983,7 +1014,54 @@ your next attack roll against that creature before
 the end of your next turn.
 
 ## Rules Glossary
-TODO add rules that have changed...
+
+### Dazed [Condition]
+* You can Move or take one action on your turn, not both. You also can’t take a Bonus Action or a Reaction
+
+### Fly Speed
+* If you have a fly speed you stay aloft until you land, fall or die
+* You fall if you lack the hover trait and are incapaciated or prone or your fly speed is reduced to 0.
+
+### Grappled [Condition]
+* NEW: You have disadvantage on attack rolls against any target other than the grappler
+* NEW: The grappler can drag grappled targets, but it costs 1 extra feet of movement unless the grappled target is tiny or two or more sizes smaller than the grappler
+* NEW: While grappled you can use action to make STR athletics or DEX acrobatics check against grapple's escape DC.
+
+### Incpaciated [Condition]
+* Clarified that it also stops bonus actions, not just actions
+* If you're incapacitated when you roll initiative, you have disadvantage on the roll
+* You drop concentration if you are incapacicated
+
+### Long Rest
+* while you sleep you have the unconcious condition
+* When you finish a rest of sleeping at least 6 hours and perform no  more than 2 hours of light activity such as reading, talking, eating or standing watch:
+    * regain all lost HP
+    * regain all spent hit dice
+        * different from before where you only got half of max hit die
+    * Max HP is restored
+    * Ability Scores restored to original values
+    * Exhaustion reduced by 1
+* Once you finish a long rest you must wait 16 hours before starting another one
+* Interruptions of Rest
+    * Rolling initiative
+    * Casting a spell other than a cantrip
+    * Taking any damage
+    * 1 hour of walking or other physical exertion
+* If the rest was at least 1 hour long before the interruption, you gain the benefits of a Short Rest. You can resume a Long Rest immediately after an interruption. If you do so, the rest requires 1 additional hour to finish per interruption
+
+### Truesight
+* Your vision piercing through the following:
+    * Darkness. The creature can see in normal and magical darkness.
+    * Invisibility. The creature can see creatures that have the Invisible condition and objects that are obscured by magic.
+    * Visual Illusions. Visual illusions appear transparent to the creature, and the creature automatically succeeds on saving throws against them.
+    * Transformations. The creature discerns the true form of any creature or object it sees that has been transformed by magic.
+    * Ethereal Plane. The creature can see into the Ethereal Plane.
+
+### Unarmed Strike
+* When you make an unarmed strike you can choose one of the three options
+    * Damage: You make an attack roll against the target. Your bonus to hit equals your Strength modifier + your Proficiency Bonus. On a hit, the target takes Bludgeoning damage equal to 1 + your Strength modifier.
+    * Grapple: The target must succeed on a Strength or Dexterity saving throw (it chooses which), or it has the Grappled condition. The DC for the saving throw and any escape attempts equals 8 + your Strength modifier + your Proficiency Bonus. This grapple is possible only if the target is no more than one size larger than you and if you have a hand free to grab it.
+    * Shove: The target must succeed on a Strength or Dexterity saving throw (it chooses which), or you either push the target 5 feet away or cause it to have the Prone condition. The DC for the saving throw equals 8 + your Strength modifier + your Proficiency Bonus. This shove is possible only if the target is no more than one size larger than you.
 
 ## Bastions
 Just look up the bastions document or wait for them to comeout, they're new stronghold rules and nothing we've seen before, doesn't make sense to repeat them here.
