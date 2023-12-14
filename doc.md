@@ -619,6 +619,11 @@ TODO fill this in.
 ### Acid Splash
 * now creates 5 foot radius sphere that affects any creature caught inside, and is an evocation instead of conjuration spell
 
+### Aid
+* no longer increases 3 creature's max HP by 5
+* Instead gives up to 6 creatures within range 5 temp HP, scaling for 5 extra temp HP for each level above that
+
+
 ### Arcane Eruption
 * New 4th level sorcery only spell
 TODO - add image of spell here from Playtest 7
@@ -628,6 +633,16 @@ TODO - add image of spell here from Playtest 7
 * Now also works with unarmed strikes
 * Casting time is: Bonus Action, which you take immediately after hitting a creature, rather than casting the spell before making the strike
     * This makes it so the spell will always land
+
+### Banishment
+* range reduced from 60 feet to 30 feet
+* only permanent banishs target after a minute if it is an aberration, celestial, elemental, fey, or fiend
+
+### Barkskin
+* Used to be action, AC becomes no less than 16
+* Casting time changed from Action to BA
+* Grants target temp HP = to spellcasting ability modifier + profiency bonus each turn
+* can upcast to target more than one creature
 
 ### Blade Ward
 * Is now a reaction that imposes disadvantage on a creatures next melee attack roll
@@ -684,6 +699,9 @@ TODO - add image of spell here from Playtest 7
 * Now includes a WIS saving throw against becoming Charmed
 * also removed "the creature will know you charmed it afterwards"
 
+### Guidance
+* Casting time became reaction upon you or ally failing ability check within 10 feet, instead of action.
+
 ### Hex
 * Is now warlock exclusive
 
@@ -698,6 +716,10 @@ TODO - add image of spell here from Playtest 7
 * Target must now be willing
 * Effects of spell are not reliant on target's speed/strength
 * Can target more creatures with upcasting
+
+### Prayer of Healing
+* Used to just give 2d8 HP over 10 minutes
+* Now if creature stays within range of casting for all 10 minutes, those creatures gain benefits of a short rest (can only be affected by this spell 1/long rest)
 
 ### Poison Spray
 * Range of 30 feet not 10 feet
@@ -716,6 +738,10 @@ TODO - add image of spell here from Playtest 7
 * range of light increased
 * Range of attack increased to 60 feet (from 30)
 * Can now target objects and structures
+
+### Resistance
+* Reaction when you or ally within 10 feet fail a saving throw, instead of an action
+* still grants d4 to the saving throw.
 
 ### Searing Smite
 * Now also works with unarmed strikes
@@ -747,6 +773,11 @@ TODO - add image of spell here from Playtest 7
 ### Spare the Dying
 * No longer touch, is a ranged spell 15 feet
 * At higher levels, the range doubles to 30/60/120 at 5/11/17 respectively
+
+### Spiritual Weapon
+* Now requires concentration
+* upcasting grants extra 1d8 for every level above 2nd
+* used to grant 1d8 for every 2 levels above 2nd
 
 ### Staggering Smite
 * Is now a paladin exclusive spell
@@ -1062,6 +1093,12 @@ the end of your next turn.
     * Damage: You make an attack roll against the target. Your bonus to hit equals your Strength modifier + your Proficiency Bonus. On a hit, the target takes Bludgeoning damage equal to 1 + your Strength modifier.
     * Grapple: The target must succeed on a Strength or Dexterity saving throw (it chooses which), or it has the Grappled condition. The DC for the saving throw and any escape attempts equals 8 + your Strength modifier + your Proficiency Bonus. This grapple is possible only if the target is no more than one size larger than you and if you have a hand free to grab it.
     * Shove: The target must succeed on a Strength or Dexterity saving throw (it chooses which), or you either push the target 5 feet away or cause it to have the Prone condition. The DC for the saving throw equals 8 + your Strength modifier + your Proficiency Bonus. This shove is possible only if the target is no more than one size larger than you.
+
+## Species
+* Renamed from Races
+* There's a bunch of changes I don't care to go over them
+* Important thing to know is that they no longer grant you racial ASI bonuses those are instead granted by your background which you can choose or create your own of.
+
 
 ## Bastions
 Just look up the bastions document or wait for them to comeout, they're new stronghold rules and nothing we've seen before, doesn't make sense to repeat them here.
