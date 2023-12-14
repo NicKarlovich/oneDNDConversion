@@ -4,10 +4,19 @@ You'll probably need to still look at the playtest documents for the exact wordi
 
 There's probably mistakes if you find them, easily make suggestions here and I'll approve them.
 
+I also haven't done any of the subclasses, they're pretty short anyways and if you want to play them most of them have been so redesigned it's more worthwhile to just read the UA document directly.  If somebody wants to put them in here, be my guest.
+
 ## Classess
 ### Barbarian
 #### Rage
 * You now regain one expended rage when you finish a short rest
+* Rage is stopped by the Incapacitated condition, rather than unconcious
+* Lasts for 10 minute rather than 1 minute
+* You continue your rage by doing one of the following:
+    * Making an attack roll against an enemy
+    * Forcing an enemy to make a saving throw
+    * Taking a BA to extend your rage
+
 #### Brutal Strike
 * 9th level feature
 * Brutal Strike, new feature that lets you trade advantage granted by reckless attack for tactical options
@@ -33,13 +42,31 @@ There's probably mistakes if you find them, easily make suggestions here and I'l
 #### Reckless Attack
 * Now grants advantage on attacks until the start of your next turn (to work on held actions and opportunity attacks), used to only work until end of turn
 
+#### Relentless Rage
+* Same as before (DC 10 con save when you hit 0, or regain HP, DC inceases by 5 each time this occurs per short rest, after which it resets back to 10)
+* Instead of coming back up at 1 HP, you come back up with 2x your barbarian level HP
+
 #### Persistent Rage
 * 15th level feature
 * Now restores all uses of your rage onece per long rest,
 * The unconcious condition not the incapacitated condition shuts off rage
 
+#### Primal Champion
+* Same as before, but max is now 26 instead of 24 to work with updated ASI rules at level 19
+
 #### Primal Knowledge
 * Tasha's Cauldron ability moved to level 2
+* unlocks non-combat functionality for rage
+* Gain 1 proficiency from barbarian proficiency list
+* WHile you are raging, you can make the following skill checks with your strength score instead of their original scores:
+    * Acrobatics
+    * Intimidation
+    * Perception
+    * Stealth
+    * Survival
+
+#### Weapon Mastery
+* New features for weapons, see area below
 
 ### Bard
 
@@ -196,6 +223,9 @@ TODO fill this in.
 #### Second Wind
 * Now regains one use on short rest
 
+#### Skills
+* Gains profiency as option for skill at level 1
+
 #### Studied Mind
 * New 13th level ability
 * If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creature before the end of your next turn.
@@ -207,6 +237,10 @@ TODO fill this in.
 #### Tactical Shift
 * New 5th level feature
 * Lets you move half your movement speed w/out provoking opportunity attacks when you use your second wind.
+
+
+#### Weapon Mastery
+* You gain mastery of weapons, more than any other class and at higher levels can combine and change them, see more below in weapon mastery section
 
 ### Monk
 
@@ -422,7 +456,6 @@ TODO fill this in.
 #### Arcane Apotheosis
 * New 20th level feature
 * While your Innate sorcery feature is active, you can use 1 metamagic feature per turn without expending a sorcery point on it.
-* 
 
 #### Font of Magic
 * It no longer costs a BA to convert spell slots to sorcery points
@@ -432,6 +465,25 @@ TODO fill this in.
 * New level 1 feature
 * BA to gain +1 to spell save DCs and advantage on sorcerer spell attacks
 * 2x/long rest
+
+#### Metamagic
+* Moved from 3rd to 2nd level
+* You can change one option when you gain a sorcerer level.
+
+#### Metamagic Options
+* Many of the metamagic options were modified:
+    * Careful Spell: When a creature you choose to succeed saves, they take no damage instead of half
+    * Distant Spell: Increases spell range by 30ft * sorcerer level rather than doubling the spell's range
+    * Empowered Spell: No Change
+    * Extended Spell: When you extend the spell, you now also have advnatage on concentration saving throws to maintain that concentration
+    * Heightened Spell: costs 2 sorcery points instead of 3, and it imposes disadvantage on all saves from that spell rather than just the first
+    * Quickened Spell: Clarifies that quickened spell does not bypass casting a leveled spell with your action while also casting a leveled spell with your BA.
+    * Seeking Spell: Imported from Tasha's; 2 sorcery points to reroll missed spell attack roll, can be used with other options
+    * Subtle Spell: Removes need for material components as well, unless component is consumed
+    * Transmuted Spell: (1 sorcery point) Imported from Tasha's; change damage type of spell to Acid, Cold, Fire, Lightnin, Poison, Thunder
+    * Twinned Spell: Redesigned entirely, developer explanation:
+        > The 2014 version was too powerful, since it basically allowed you to cast two spells on the same turn (as in Quickened Spell) and to cast the extra spell with a Sorcery Point discount (for example, a 3rd-level Spell Slot normally costs 5 Sorcery Points, but in Twinned Spell, it cost only 3). The targeting limitation of Twinned Spell failed to contain how overpowered the option was and caused confusion. The new version of Twinned Spell keeps the Sorcery Point discount, with Quickened Spell carrying the extra-spell-on-a-turn weight. This redesign has allowed us to remove the targeting limitation that Twinned Spell had before.
+        * New Version: Cost 1-5 sorcery points; When you cast a spell of 1st–5th level that you also cast on your previous turn by expending a Spell Slot, you can fuel this turn’s casting of the spell by spending a number of Sorcery Points equal to the spell’s level rather than expending a Spell Slot
 
 #### Sorcerous Restoration
 * 20th level feature moved to 5th level and modified
@@ -445,6 +497,8 @@ TODO fill this in.
 
 #### Spellcasting
 * New sorcerer specific spells Sorcerous Burst and Arcane Eruption
+* The number of total prepared spells goes up to 22 from 15 at level 20(matching clerics and druids) for total prepared at one time (although sorcerers aren't prepared casters).
+    * Generally over the course of play you will have more spells than a 5e sorcerer
 
 ### Warlock
 
@@ -547,6 +601,7 @@ TODO fill this in.
 * You can now change 1 known cantrip per long rest
 * The number of spells you can prepare is now listed in the wizard leveling table, rather than being based off of your Intelligence Mod + Wizard Level, 
     * The scaling overall is generally the same, although sometimes slightly slower than you could theoertically have by rushing INT to 20.
+* You can now use your spellbook as a spellcasting focus
 
 #### Spell Mastery
 * 18th level feature allowing you to innately cast a few 1st or 2nd level spells
@@ -757,11 +812,70 @@ TODO Combine these images
 * scales 2d8 at level 5, 3d8 at 11th, and 4d8 and 17th
 ![Alt text](image-2.png)
 
+## Epic Boons
+
+### Epic Boon of Dimensional Travel
+* Used to allow 1 casting of misty step for free 1/short rest
+* Now allows you to increase one of DEX/INT/WIS/CHA by 1 up to max of 30
+* Immediately after Taking attack or Magic action, you can teleport upt o 30 feet to an unoccupied space you can see
+
+
+### Epic Boon of Energy Resistance
+* New 20th level boon
+* Now allows you to increase one of CON/INT/WIS/CHA by 1 up to max of 30
+* Gain resistance to two of following choices:
+    * Acid
+    * Cold
+    * Fire
+    * Lightning
+    * Necrotic
+    * Poison
+    * Psychic
+    * Radiant
+    * Thunder
+* Resistances can be changed on long rest
+* Additional Ability:
+    * when you take damage that you have resistance to, reaction to redirect to another creature not behind total cover, DEX save or they take 2d12 + CON mod of the same damage
+
+### Epic Boon of Irresistible Offense
+* Used to allow you to bypass any resistance of a creature
+* Increase STR or DEX by 1 up to 30
+* Always ignore b/p/s resistances 
+* 1/turn: When you roll a 20 on an attack roll, you can deal extra damage equal to ability mod increased by this feat 
+
+### Epic Boon of Recovery
+* Used to be: 1/long rest, BA gain HP equal to half your maximum
+* Now:
+* Incrase Con score by 1 up to 30
+* 1/long rest: When you drop to 0 HP, instead drop to 1 and regain hit points equal to half your HP maximum
+* When you are hit while you have 0 hp, you make a death saving throw instead of automatically taking a death saving throw failure
+
+### Epic Boon of Speed
+* Used to increase base walking speed by 30
+    * Allowed you to BA Dash or Disengage 1/short rest
+* Now:
+* Increase DEX by 1 up to 30
+* BA to disengage, which also ends grappled and restrained conditions on you
+* Increases base movement speed by 30
+
+### Epic Boon of Night Spirit 
+* Used to be: While completely in an area of dim light or darkness, you can become invisible as an action. You remain invisible until you take an action or a reaction.
+* Now allows you to increase one of DEX/INT/WIS/CHA by 1 up to max of 30
+* While entirely in dim light or darkness, can give yourself invisible condition as magic action.  Condition ends when you take an action, BA, or Reaction
+* While entirely in dim light, or darkness, you have resistance to all damage except force, psychic, and radiant
+
+
 ## New Rules
 ### Feats
 #### Ability Score Improvement
 * Is now a feat, you don't choose between ASI or Feat, you always get a feat at 4/8/12/16/19th level, but one option for a feat is an ASI
 * Same as before, BUT at 19th level you can increase your abilty score to a max of 22 not just 20
+
+#### Weapon Master
+* 4th level feat
+* Increase Dex or Str by 1 up to 20
+* Allows you to learn mastery property of one simple or martial weapon that you are proficient with.
+* Can change selected mastery over long rest.
 
 ### Weapons
 
