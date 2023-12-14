@@ -1,7 +1,7 @@
 ### Weapon Masteries
 * All weapons now have mastery properties
 
-  ![Alt text](image-10.png)
+  ![Alt text](/images/image-10.png)
 
 #### Cleave Mastery Property
 *Prereq: Heavy melee weapon*

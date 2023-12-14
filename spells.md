@@ -8,7 +8,7 @@
 ### Arcane Eruption
 * New 4th level sorcery only spell
 
-  ![Alt text](image-9.png)
+  ![Alt text](/images/image-9.png)
 
 ### Banishing Smite
 * Is now a paladin exclusive spell
@@ -43,7 +43,7 @@
 ### Conjure Animals
 * Completely Redesigned
 
-  ![Alt text](image-11.png)
+  ![Alt text](/images/image-11.png)
 
 ### Conjure Barrage
 * Is now a ranger exclusive spell
@@ -53,23 +53,23 @@
 ### Conjure Celestial
 * Completely redesigned
 
-  ![Alt text](image-15.png)
+  ![Alt text](/images/image-15.png)
 
 ### Conjure Elemental
 * Completely Redesigned
 
-  ![Alt text](image-16.png)
+  ![Alt text](/images/image-16.png)
 
 ### Conjure Fey
 * Completely Redesigned
 
-  ![Alt text](image-12.png)
+  ![Alt text](/images/image-12.png)
 
 
 ### Conjure Minor Elementals
 * Completely Redesigned
 
-  ![Alt text](image-17.png)
+  ![Alt text](/images/image-17.png)
 
 ### Conjure Volley
 * Is now a ranger exclusive spell
@@ -78,7 +78,7 @@
 ### Conjure Woodland Beings
 * Completely Redesigned
 
-  ![Alt text](image-18.png)
+  ![Alt text](/images/image-18.png)
 
 ### Counterspell
 * Now requires target to make a con save, rather than caster making spellcaster ability check
@@ -96,7 +96,7 @@
 ### Elementalism
 * New cantrip
 
-  ![Alt text](image-14.png)
+  ![Alt text](/images/image-14.png)
 
 ### Find Familiar
 * Too much to write here, but essentially your familiar is always of the statblock provided in the spell with some minor tweaks depending on if you choose Celestial, Fey or Fiend.
@@ -118,7 +118,7 @@
 ### Fount of Moonlight
 * New 4th level spell for bards and druids
 
-  ![Alt text](image-19.png)
+  ![Alt text](/images/image-19.png)
 
 ### Guidance
 * Casting time became reaction upon you or ally failing ability check within 10 feet, instead of action.
@@ -159,7 +159,7 @@
 ### Power Word Fortify
 * new spell for bards and clerics
 
-  ![Alt text](image-20.png)
+  ![Alt text](/images/image-20.png)
 
 ### Power Word Heal
 * Now has a range of 60 feet instead of touch
@@ -204,7 +204,7 @@
 ### Sorcerous Burst
 * New sorcerer Cantrip
 
-  ![Alt text](image-13.png)
+  ![Alt text](/images/image-13.png)
 
 ### Spare the Dying
 * No longer touch, is a ranged spell 15 feet
@@ -224,7 +224,7 @@
 ### Starry Wisp
 * New cantrip for bards and druids
 
-  ![Alt text](image-21.png)
+  ![Alt text](/images/image-21.png)
 
 ### Thunderous Smite
 * Is now a paladin exclusive spell
