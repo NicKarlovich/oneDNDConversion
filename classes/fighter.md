@@ -11,7 +11,7 @@
 * Now regains one use on short rest
 
 #### Skills
-* Gains profiency as option for skill at level 1
+* Gains proficiency as option for skill at level 1
 
 #### Studied Mind
 * New 13th level ability

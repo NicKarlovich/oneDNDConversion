@@ -4,12 +4,12 @@
 
 #### Ability Score Improvement
 * Is now a feat, you don't choose between ASI or Feat, you always get a feat at 4/8/12/16/19th level, but one option for a feat is an ASI
-* Same as before, BUT at 19th level you can increase your abilty score to a max of 22 not just 20
+* Same as before, BUT at 19th level you can increase your ability score to a max of 22 not just 20
 
 #### Charger
 * Used to be able to use a bonus action to make an attack when you used action to dash, this attack could also do extra damage or push targets away
 * New version, when you take the dash action your movement increases by 10 for that action
-* 1/turn: You can make an attack action on your turn, you can choos eot add 1d8 to the attack's damage roll, or push the target up to 10 feet away from you (as long as it is no more than 1 size larger than you)
+* 1/turn: You can make an attack action on your turn, you can choose to add 1d8 to the attack's damage roll, or push the target up to 10 feet away from you (as long as it is no more than 1 size larger than you)
 
 #### Dual Wielder
 * You don't gain a +1 bonus to AC while wielding a separate weapon in each hand
@@ -29,12 +29,12 @@
 * Now you are not slowed when moving a grappled creature
 * 1/turn: Additionally, when you hit a creature to grapple with unarmed strike, you can deal damage as a part of grapple
 
-#### Great Wapon Master
+#### Great Weapon Master
 * Completely Redesigned, used to be -5 to hit for +10 damage on attack rolls, and when you crit or kill a creature, you could BA attack
 * Now:
     * Increase STR by 1 up to 20
     * When you crit or reduce creature to 0 hp, you can make BA attack
-    * 1/turn: When you hit a creature with a heavy weapon on your turn, as part of atack action, you can deal extra damage equal to your proficincy bonus
+    * 1/turn: When you hit a creature with a heavy weapon on your turn, as part of attack action, you can deal extra damage equal to your proficiency bonus
 
 #### Heavily Armoured
 * Increase CON or STR by 1, up to 20, before it was only STR
@@ -45,7 +45,7 @@
 
 #### Inspiring Leader
 * Now grants +1 to CHA max of 20
-* Used to be 1/short rest, take 10 minutes to grant 6 friendly creatures temp HP equal to your levle + CHA mod
+* Used to be 1/short rest, take 10 minutes to grant 6 friendly creatures temp HP equal to your level + CHA mod
 * Now it's at the end of short/long rest, choose 6 friendly creatures, and they gain 2d4 + proficiency bonus temp HP.
 
 #### Keen Mind
@@ -58,8 +58,8 @@
 * Grants Light and medium armour profiency and shield
 
 #### Mage Slayer
-* Used to have reation to make attack against creatures casting spells within 5 feet
-* Also used to hae advantage on spells cast by creatures within 5 feet
+* Used to have reaction to make attack against creatures casting spells within 5 feet
+* Also used to have advantage on spells cast by creatures within 5 feet
 * Now you gain +1 to STR or DEX, up to max of 20
 * And, 1/long rest, when you fail an INT/WIS/CHA saving throw, you can choose to succeed instead.
 
@@ -68,7 +68,7 @@
 
 #### Mounted Combatant
 * Now you get a +1 to DEX or WIS up to max of 20
-* YOu get advantage on Animal handling checks w/ beasts or other mounts
+* You get advantage on Animal handling checks w/ beasts or other mounts
 * Now a reaction to make attacks that would hit your mount target you instead.
 
 #### Observant

@@ -1,7 +1,7 @@
 #### Blessed Strikes
 * new 7th level feature
 * Replaces in subclass the Divine Strike and Potent Cantrips features typically shown in subclasses
-* Grants cleric the ablity to choose between them, rather than being restricted based on subclass
+* Grants cleric the ability to choose between them, rather than being restricted based on subclass
     * Divine Strike. Once on each of your turns when you hit a creature with an attack with a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant (your choice) damage.
     * Potent Spellcasting. You add your Wisdom modifier to the damage you deal with any Divine cantrip.
 
@@ -38,7 +38,7 @@
 * New level 14 feature
 * Improves the blessed strikes feature you chose at level 7 
     * Divine Strike. The extra damage of your Divine Strike increases to 2d8.
-    * Potent Spellcasting. When you cast a Divine cantrip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit Poin
+    * Potent Spellcasting. When you cast a Divine cantrip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit Points
 
 
 #### Smite Undead

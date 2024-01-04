@@ -13,7 +13,7 @@
 #### Spellcasting
 * You can now change 1 known cantrip per long rest
 * The number of spells you can prepare is now listed in the wizard leveling table, rather than being based off of your Intelligence Mod + Wizard Level, 
-    * The scaling overall is generally the same, although sometimes slightly slower than you could theoertically have by rushing INT to 20.
+    * The scaling overall is generally the same, although sometimes slightly slower than you could theoretically have by rushing INT to 20.
 * You can now use your spellbook as a spellcasting focus
 
 #### Spell Mastery

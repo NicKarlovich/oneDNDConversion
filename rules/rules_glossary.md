@@ -12,13 +12,13 @@
 * NEW: The grappler can drag grappled targets, but it costs 1 extra feet of movement unless the grappled target is tiny or two or more sizes smaller than the grappler
 * NEW: While grappled you can use action to make STR athletics or DEX acrobatics check against grapple's escape DC.
 
-### Incpaciated [Condition]
+### Incapacitated [Condition]
 * Clarified that it also stops bonus actions, not just actions
 * If you're incapacitated when you roll initiative, you have disadvantage on the roll
-* You drop concentration if you are incapacicated
+* You drop concentration if you are incapacitated
 
 ### Long Rest
-* while you sleep you have the unconcious condition
+* while you sleep you have the unconscious condition
 * When you finish a rest of sleeping at least 6 hours and perform no  more than 2 hours of light activity such as reading, talking, eating or standing watch:
     * regain all lost HP
     * regain all spent hit dice

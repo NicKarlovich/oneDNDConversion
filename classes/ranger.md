@@ -32,9 +32,9 @@
 
 #### Nature's Veil 
 * Replaces Hide in plain sight feature
-* Moved to level 14 from level 10 (as suggested in tasha's)
+* Moved to level 14 from level 10 (as suggested in Tasha's)
 * Makes you invisible as a BA until the end of your next turn, WIS mod # of times / long rest
-* The old version was proficinecy bonus # of times / long rest, and it lasted till start of next turn
+* The old version was proficiency bonus # of times / long rest, and it lasted till start of next turn
 
 #### Spellcasting
 * Number of prepared spells no longer depends on level + wisdom mod, instead its listed in ranger leveling table

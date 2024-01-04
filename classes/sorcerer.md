@@ -20,12 +20,12 @@
     * Careful Spell: When a creature you choose to succeed saves, they take no damage instead of half
     * Distant Spell: Increases spell range by 30ft * sorcerer level rather than doubling the spell's range
     * Empowered Spell: No Change
-    * Extended Spell: When you extend the spell, you now also have advnatage on concentration saving throws to maintain that concentration
+    * Extended Spell: When you extend the spell, you now also have advantage on concentration saving throws to maintain that concentration
     * Heightened Spell: costs 2 sorcery points instead of 3, and it imposes disadvantage on all saves from that spell rather than just the first
     * Quickened Spell: Clarifies that quickened spell does not bypass casting a leveled spell with your action while also casting a leveled spell with your BA.
     * Seeking Spell: Imported from Tasha's; 2 sorcery points to reroll missed spell attack roll, can be used with other options
     * Subtle Spell: Removes need for material components as well, unless component is consumed
-    * Transmuted Spell: (1 sorcery point) Imported from Tasha's; change damage type of spell to Acid, Cold, Fire, Lightnin, Poison, Thunder
+    * Transmuted Spell: (1 sorcery point) Imported from Tasha's; change damage type of spell to Acid, Cold, Fire, Lightning, Poison, Thunder
     * Twinned Spell: Redesigned entirely, developer explanation:
         > The 2014 version was too powerful, since it basically allowed you to cast two spells on the same turn (as in Quickened Spell) and to cast the extra spell with a Sorcery Point discount (for example, a 3rd-level Spell Slot normally costs 5 Sorcery Points, but in Twinned Spell, it cost only 3). The targeting limitation of Twinned Spell failed to contain how overpowered the option was and caused confusion. The new version of Twinned Spell keeps the Sorcery Point discount, with Quickened Spell carrying the extra-spell-on-a-turn weight. This redesign has allowed us to remove the targeting limitation that Twinned Spell had before.
         * New Version: Cost 1-5 sorcery points; When you cast a spell of 1st–5th level that you also cast on your previous turn by expending a Spell Slot, you can fuel this turn’s casting of the spell by spending a number of Sorcery Points equal to the spell’s level rather than expending a Spell Slot

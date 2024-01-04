@@ -4,7 +4,7 @@
   ![Alt text](/images/image-10.png)
 
 #### Cleave Mastery Property
-*Prereq: Heavy melee weapon*
+*Prerequisite: Heavy melee weapon*
 
 If you hit a creature with a melee attack using
 this weapon, you can make an attack roll with
@@ -16,7 +16,7 @@ that damage unless that modifier is negative. You
 can make this extra attack only once per turn.
 
 #### Graze Mastery Property
-*Prereq: Heavy melee weapon*
+*Prerequisite: Heavy melee weapon*
 
 If your attack roll with this weapon misses a
 creature, you can deal damage to that creature
@@ -27,7 +27,7 @@ increased in any way, other than increasing the
 ability modifier.
 
 #### Nick Mastery Property
-*Prereq: light weapon*
+*Prerequisite: light weapon*
 
 When you make the extra attack of the Light
 property, you can make it as part of the Attack
