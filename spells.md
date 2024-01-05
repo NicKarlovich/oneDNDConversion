@@ -18,12 +18,12 @@
 
 ### Banishment
 * range reduced from 60 feet to 30 feet
-* only permanent banishs target after a minute if it is an aberration, celestial, elemental, fey, or fiend
+* only permanently banishes target after a minute if it is an aberration, celestial, elemental, fey, or fiend
 
 ### Barkskin
 * Used to be action, AC becomes no less than 16
 * Casting time changed from Action to BA
-* Grants target temp HP = to spellcasting ability modifier + profiency bonus each turn
+* Grants target temp HP = to spellcasting ability modifier + proficiency bonus each turn
 * can upcast to target more than one creature
 
 ### Blade Ward
@@ -38,7 +38,7 @@
 * Applies blind on hit, then the creature can make CON saves, rather than having to fail a CON save initially.
 
 ### Chill Touch
-* Becomes a touch spell, instead of 30ft hand, and does 1d10 not 1d8, remvoed restriction against undead.
+* Becomes a touch spell, instead of 30ft hand, and does 1d10 not 1d8, removed restriction against undead.
 
 ### Conjure Animals
 * Completely Redesigned

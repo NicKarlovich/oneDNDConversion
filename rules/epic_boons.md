@@ -3,7 +3,7 @@
 ### Epic Boon of Dimensional Travel
 * Used to allow 1 casting of misty step for free 1/short rest
 * Now allows you to increase one of DEX/INT/WIS/CHA by 1 up to max of 30
-* Immediately after Taking attack or Magic action, you can teleport upt o 30 feet to an unoccupied space you can see
+* Immediately after Taking attack or Magic action, you can teleport up to 30 feet to an unoccupied space you can see
 
 
 ### Epic Boon of Energy Resistance
@@ -45,7 +45,7 @@
 ### Epic Boon of Recovery
 * Used to be: 1/long rest, BA gain HP equal to half your maximum
 * Now:
-* Incrase Con score by 1 up to 30
+* Increase Con score by 1 up to 30
 * 1/long rest: When you drop to 0 HP, instead drop to 1 and regain hit points equal to half your HP maximum
 * When you are hit while you have 0 hp, you make a death saving throw instead of automatically taking a death saving throw failure
 

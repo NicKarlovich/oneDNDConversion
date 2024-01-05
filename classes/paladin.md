@@ -4,7 +4,7 @@
 
 #### Aura of Protection
 * The aura is inactive if you become incapacitated
-    * Used to only be inactive if you were unconcious
+    * Used to only be inactive if you were unconscious
 
 #### Divine Smite
 * This feature has become a bonus action spell (for paladin's only), rather than class feature, listed later in document

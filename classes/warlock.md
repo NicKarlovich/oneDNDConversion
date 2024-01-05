@@ -2,21 +2,21 @@
 * New 9th level feature
 * 1/long rest, you can cast Contact Other Plane to talk to your patron w/out expending a spell slot and you auto-succeed on the saving throw involved.
 
-#### Eldrtich Invocations
+#### Eldritch Invocations
 * Moved to level 1 from level 2
 * You get 1 invocation at level 1
 * From levels 2-4 you have 3 rather than 2 invocations
 * for levels greater than 5, you have 5e # of invocations + 2
 * so at 20th level you would have 10 instead of 8 invocations
 * Pact choices (Blade/Tome/Chain,etc) are now invocations you can choose
-* See eldrtich invocations section for list of changes (there are many)
+* See eldritch invocations section for list of changes (there are many)
 
 #### Magical Cunning
 * New 2nd level feature
 * 1/long rest: when you have no spell slots you can regain half of your total max spell slots over the course of a minute by doing a ritual.
 
 #### Mystic Arcanum
-* Allows you to change the one of the spells you choose for mysic arcanum on level up.
+* Allows you to change the one of the spells you choose for mystic arcanum on level up.
 
 #### Pact Boon
 * This feature is now granted as a invocation
@@ -25,10 +25,10 @@
 ## Eldritch Invocations
 ### Agonizing Blast 
 * Now lets you choose which Warlock cantrip benefits from the invocation.
-### Ascendent Step
+### Ascendant Step
 * now requires level 5+ rather than level 9+.
 ### Beast Speech 
-* Removed, since Speak with Animalsis now on the Warlock spell list and can be cast as a Ritual.
+* Removed, since Speak with Animals is now on the Warlock spell list and can be cast as a Ritual.
 ### Devil’s Sight
 * Now works in Dim Light as well as in Darkness
 ### Eldritch Mind 
